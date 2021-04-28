@@ -4,8 +4,13 @@ A configuration file to have history line and time in different colors with agno
 Steps:
 
 
-1 # Firstly, install Oh-My-Bash and agnoster theme.
+1 # Firstly, install and use Oh-My-Bash and agnoster theme.
 
-2 # Then, add the code (or replace for already existing functions) to your configuration file of agnoster theme (configuration file is located at ~.oh-my-bash/themes/agnoster/agnoster.theme.sh).
+2 # Then, open configuration file of agnoster theme (configuration file is located at ~.oh-my-bash/themes/agnoster/agnoster.theme.sh) with editor.
+Add the two news functions prompt_historyline() and prompt_time().
+Use the two others functions prompt_context() and build_prompt() to replace already existing functions in your configuration file.
 
-3 # change colors as you wish, as following: prompt_segment colorBackground colorForeground
+Save the changes and enter following command to update configuration file:
+source .bashrc
+
+3 # change colors in configuration file as you wish, as following: prompt_segment colorBackground colorForeground
