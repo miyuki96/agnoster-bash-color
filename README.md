@@ -8,9 +8,9 @@ Steps:
 
 2 # Then, open configuration file of agnoster theme with editor (configuration file is located at ~.oh-my-bash/themes/agnoster/agnoster.theme.sh).
 
-Add the two news functions prompt_historyline() and prompt_time().
+Add the two news functions prompt_historyline() and prompt_time(). (see theme.sh file of this project)
 
-Use the two others functions prompt_context() and build_prompt() to replace already existing functions in your configuration file.
+Use the two others functions prompt_context() and build_prompt() to replace already existing functions in your configuration file. (see theme.sh file of this project)
 
 Save the changes and enter following command to update configuration file:
 source .bashrc
